@@ -1,0 +1,26 @@
+A. Di cmd:
+1. Login git di cmd:
+git config --global user.name "UsernameAnda"
+
+2. Masukkan email yang terdaftar di github:
+git config --global user.email IsiDenganEmailAnda@gmail.com
+
+3. Untuk memastikan proses login berhasil:
+git config --list
+
+B. Di Git Bash:
+1. Ubah folder menjadi repository:
+$ git init
+
+2. Tambahkan File ke Repository
+
+3. Buat Commit:
+$ git commit -m "first commit"
+
+4. Remote Repository Github:
+$ git remote add origin git@github.com:UserNameGit/NamaRepository.git
+
+5. Push ke GitHub:
+git push -u origin master
+
+6. Cek File 
